@@ -1,11 +1,12 @@
+
 body{
-    font-family:open sans;  
+    font-family: 'Arial', sans-serif;  
 }
 .secciones {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #00B6FF;;
+    background-color: #4BB627;
     padding: 10px;
 }
 
@@ -13,20 +14,23 @@ body{
     text-decoration: none;
     color: white;
     padding: 10px;
-    border: 1px solid #00B6FF;;
+    border: 1px solid #46A027;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 .secciones a:hover {
-    background-color: #00B6FF;;
+    background-color: #46A027;
+}
+.ph-foto{
+    height:100px;
+    width:100px;
 }
 
 
-
 .txt-contenedor{
-    width: 900px; /* Ajusta el ancho del contenedor izquierdo según tus necesidades */
-      background-color: #dff6ff;
+    width: 1000px; /* Ajusta el ancho del contenedor izquierdo según tus necesidades */
+      background-color: #f0f0f0;
       padding: 20px;
       float: left; /* Coloca el contenedor a la izquierda */
 }
@@ -44,15 +48,19 @@ li{
     padding: 6px;
 }
 footer{
-    background-color: #00B6FF;;
+    background-color: #B0E89C;
 }
 .img8{
-    height: 300px;
-    width:300px;
+    height: 200px;
+    width:200px;
     border-radius:50%;
 }
 .img7{
-    height: 300px;
-    width:300px;
+    height: 200px;
+    width:200px;
     border-radius:50%;
+}
+.eco{
+    height:300px;
+    width:500px;
 }
